@@ -5,29 +5,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hometown Malmö</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
      <!-- HERO SECTION -->
-     <div>
+     <div class="hero">
         <h1>Visit Malmö</h1>
-        <h2>Enjoy culture and sports in this vibrant city close to big citys like Copenhagen.</h2>
+        <h2>Enjoy culture and sports in this vibrant<br> city close to big citys like Copenhagen.</h2>
     </div>
     
     <!-- ACTIVITIES SECTION -->
-    <div>
-        <h3>Top three activities to do in Malmö</h3>
-        <img src="images/park.jpg">
-        <img src="images/theatre.jpg">
-        <img src="images/sports.jpg">
+    <div class="activities-container">
+        <div class="activities-tittle">
+            <h3>Top three activities to do in Malmö</h3>
+        </div>
+        <div class="activities-cards">
+            <div class="activities">
+                <img src="images/Malmöfestivalen.jpg">
+                <h3>Malmö Festival</h3>
+                <p>Welcome to The Malmö Festival - a warm, friendly and wide-ranging festival founded in 1985</p>
+            </div>
+            <div class="activities">
+                <img src="images/sweden-oresund-bridge.jpg">
+                <h3>Oresund Bridge</h3>
+                <p>The magnificent Oresund Bridge (Øresundsbroen) lies a 15-minute drive from Malmö city center.</p>
+            </div><div class="activities">
+                <img src="images/Malmöfestivalen.jpg">
+                <h3>Explore Malmö Castle</h3>
+                <p>A must-see for any visitor, Malmö Castle (Malmöhus) houses several of the city's major museums.</p>
+            </div>
+        </div>
+        
     </div>
 
     <!-- GUIDE SECTION -->
-    <div>
-        <h3>Your guide</h3>
-        <p>"I have lived at Torshov for over 30 years, so I can show you all of its best parts and hidden secrets."</p>
-        <h4>Per Harald Borgen</h4>
-        <img src="images/per.jpg">
+    <div class="guide-card">
+        <div class="card">
+            <div class="card-info">
+                <h3>Your guide</h3>
+                <p>"I have lived in Malmö for over 35 years, so I can show you all of its best parts and hidden secrets."</p>
+                <h4>Dariusz Roman Jendryczka</h4>
+            </div>
+            <div class="card-img">
+                <img id="img" src="images/jag.jpg">
+            </div>
+        </div>
     </div>
 </body>
 </html>
